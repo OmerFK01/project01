@@ -33,8 +33,8 @@ jobs:
      # - name: Prepare for Yarn Installation
      #   run: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key - echo "deb https://dl.yarnpkg.com/debian/ 
         
-      - uses: borales/actions-yarn@v2.0.0
-        with: 
+      - uses: borales/actions-yarn@v2.3.0
+        with:
           cmd: install 
       
       - name: Build React App
